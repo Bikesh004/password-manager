@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password maneger </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li>Home </li>
+            <li>About </li>
+            <li>Contact </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        A password manager is an app on your phone, tablet or computer that stores your passwords, so you don't need to
+        remember them. Once you've logged into the password manager using a 'master' password, it will generate and
+        remember your passwords for all your online accounts.
+        <h2>Your password</h2>
+        <table>
+            <tr>
+                <th>website</th>
+                <th>username</th>
+                <th>password</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td>github</td>
+                <td>bikesh</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="Password">Password:</label>
+            <input type="Password" id="password" name="Password" required><br><br>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
